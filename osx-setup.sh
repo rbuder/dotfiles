@@ -1,5 +1,5 @@
-# Setup xcode
-xcode-select --install
+# Install xcode if on a Mac
+[[ $(uname) == "Darwin" ]] && xcode-select --install
 
 # Get brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -21,6 +21,7 @@ done
 
 # Switch the prompt
 sed -ie 's/sorin/powerlevel10k/g' ~/.zpreztorc
+p10k configure
 
 cd $ZPREZTODIR
 git pull
