@@ -1,0 +1,11 @@
+4ops.terraform
+DavidAnson.vscode-markdownlint
+esbenp.prettier-vscode
+hashicorp.terraform
+ionutvmi.path-autocomplete
+laszer25.terraform-azure-autocomplete
+ms-azuretools.vscode-azureterraform
+ms-azuretools.vscode-docker
+ms-python.python
+ms-vscode.azure-account
+run-at-scale.terraform-doc-snippets
