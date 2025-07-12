@@ -423,7 +423,7 @@
     "format": "{}°",
     "tooltip": true,
     "interval": 3600,
-    "exec": "wttrbar",
+    "exec": "wttrbar --date-format \"%m/%d\" --location Singapore --hide-conditions",
     "return-type": "json"
   },
 }
