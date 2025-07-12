@@ -419,7 +419,7 @@
     "scroll-step": 1
   },
  
-  custom/weather": {
+  "custom/weather": {
     "format": "{}°",
     "tooltip": true,
     "interval": 3600,
